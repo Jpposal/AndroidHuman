@@ -1,0 +1,10 @@
+ins_task\gm6020.o: ..\components\motor\src\GM6020.c
+ins_task\gm6020.o: ..\components\motor\inc\GM6020.h
+ins_task\gm6020.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\string.h
+ins_task\gm6020.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+ins_task\gm6020.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\math.h
+ins_task\gm6020.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+ins_task\gm6020.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+ins_task\gm6020.o: ..\components\tools\inc\ZeroCheck.h
+ins_task\gm6020.o: ..\components\tools\inc\tools.h
+ins_task\gm6020.o: ..\components\algorithm\inc\my_filter.h

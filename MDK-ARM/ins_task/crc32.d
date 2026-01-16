@@ -1,0 +1,12 @@
+ins_task\crc32.o: ..\components\algorithm\src\crc32.c
+ins_task\crc32.o: ..\components\algorithm\inc\crc32.h
+ins_task\crc32.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\string.h
+ins_task\crc32.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+ins_task\crc32.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\math.h
+ins_task\crc32.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+ins_task\crc32.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+ins_task\crc32.o: ../Drivers/CMSIS/Include/arm_math.h
+ins_task\crc32.o: ../Drivers/CMSIS/Include/core_cm4.h
+ins_task\crc32.o: ../Drivers/CMSIS/Include/cmsis_version.h
+ins_task\crc32.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+ins_task\crc32.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
