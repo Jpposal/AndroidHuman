@@ -115,3 +115,6 @@ ins_task\testtask.o: ..\components\motor\inc\M2006.h
 ins_task\testtask.o: ..\config\gimbal_config.h
 ins_task\testtask.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 ins_task\testtask.o: ..\components\motor\inc\kinematics.h
+ins_task\testtask.o: ..\application\inc\pc_serial.h
+ins_task\testtask.o: ..\components\algorithm\inc\algorithmOfCRC.h
+ins_task\testtask.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdbool.h

@@ -100,6 +100,7 @@ ins_task\usbd_cdc_if.o: ..\components\motor\inc\M3508.h
 ins_task\usbd_cdc_if.o: ..\components\tools\inc\ZeroCheck.h
 ins_task\usbd_cdc_if.o: ..\components\algorithm\inc\my_filter.h
 ins_task\usbd_cdc_if.o: ..\components\motor\inc\GM6020.h
+ins_task\usbd_cdc_if.o: ..\components\motor\inc\robot_config.h
 ins_task\usbd_cdc_if.o: ..\application\inc\mecanum.h
 ins_task\usbd_cdc_if.o: ..\components\algorithm\inc\accel.h
 ins_task\usbd_cdc_if.o: ..\application\inc\omni.h

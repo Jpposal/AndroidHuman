@@ -100,6 +100,7 @@ ins_task\pc_serial.o: ..\components\motor\inc\M3508.h
 ins_task\pc_serial.o: ..\components\tools\inc\ZeroCheck.h
 ins_task\pc_serial.o: ..\components\algorithm\inc\my_filter.h
 ins_task\pc_serial.o: ..\components\motor\inc\GM6020.h
+ins_task\pc_serial.o: ..\components\motor\inc\robot_config.h
 ins_task\pc_serial.o: ..\application\inc\mecanum.h
 ins_task\pc_serial.o: ..\components\algorithm\inc\accel.h
 ins_task\pc_serial.o: ..\application\inc\omni.h
@@ -107,8 +108,3 @@ ins_task\pc_serial.o: ..\config\can_send_config.h
 ins_task\pc_serial.o: ..\components\motor\inc\Motor_Typdef.h
 ins_task\pc_serial.o: ..\components\algorithm\inc\QuaternionEKF.h
 ins_task\pc_serial.o: ..\components\algorithm\inc\kalman_filter.h
-ins_task\pc_serial.o: ..\Task\inc\GimbalTask.h
-ins_task\pc_serial.o: ..\components\motor\inc\DM_Motor.h
-ins_task\pc_serial.o: ..\components\motor\inc\M2006.h
-ins_task\pc_serial.o: ..\config\gimbal_config.h
-ins_task\pc_serial.o: ..\components\algorithm\inc\SignalGenerator.h

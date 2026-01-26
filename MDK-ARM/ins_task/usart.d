@@ -80,7 +80,7 @@ ins_task\usart.o: ..\Drivers\usbd_core.h
 ins_task\usart.o: ..\Drivers\usbd_ioreq.h
 ins_task\usart.o: ..\Drivers\usbd_ctlreq.h
 ins_task\usart.o: ..\components\devices\inc\BMI088driver.h
-ins_task\usart.o: ..\config\robot_config.h
+ins_task\usart.o: ..\components\motor\inc\robot_config.h
 ins_task\usart.o: ..\bsp\boards\inc\bsp_rc.h
 ins_task\usart.o: ..\components\tools\inc\struct_typedef.h
 ins_task\usart.o: ..\application\inc\remote_control.h
@@ -91,6 +91,7 @@ ins_task\usart.o: ..\Drivers\FastMath\arm_atan2_f32.h
 ins_task\usart.o: ..\components\algorithm\inc\pid.h
 ins_task\usart.o: ..\components\algorithm\inc\user_lib.h
 ins_task\usart.o: ..\config\can_config.h
+ins_task\usart.o: ..\config\robot_config.h
 ins_task\usart.o: ..\components\algorithm\inc\TD.h
 ins_task\usart.o: ..\Task\inc\ins_task.h
 ins_task\usart.o: ..\components\algorithm\inc\QuaternionEKF.h

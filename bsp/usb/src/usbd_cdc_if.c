@@ -258,16 +258,15 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t *pbuf, uint16_t length)
  * @param  Len: Number of data received (in bytes)
  * @retval Result of the operation: USBD_OK if all operations are OK else USBD_FAIL
  */
-unsigned char tempPC[PC_RECVBUF_SIZE];
 static int8_t CDC_Receive_FS(uint8_t *Buf, uint32_t *Len)
 {
   /* USER CODE BEGIN 6 */
-   memcpy(tempPC, Buf, *Len);
-   PCReceive(tempPC);
+   // 直接将接收到的字节交给 pc_serial 的解析接口，传入长度
+   PCReceive(Buf, *Len);
 
- USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
- USBD_CDC_ReceivePacket(&hUsbDeviceFS);
- return (USBD_OK);
+   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
+   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
+   return (USBD_OK);
 
   /* USER CODE END 6 */
 }
