@@ -1,0 +1,12 @@
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+ly-020-usb-cdcsoftware\list.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ly-020-usb-cdcsoftware\list.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+ly-020-usb-cdcsoftware\list.o: D:\1\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+ly-020-usb-cdcsoftware\list.o: ../Core/Inc/FreeRTOSConfig.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ly-020-usb-cdcsoftware\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
